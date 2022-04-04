@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Template</title>
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="MainContainer" id="MainContainer">
+        <!-- Upper instruction Box -->
+        <div class="instructionBox" id="instructionBox" >
+            <div class="textBox" id="textBox"></div>
+        </div>
+        <!-- Character -->
+        <div class="character" id="character">
+            <img src="images/robot.gif" alt="" srcset="">
+        </div>
+        <!-- Coin Element -->
+        <div class="tossElement" id="tossElement">
+            <div class="coinContainer">
+                <div class="head"></div>
+                <div class="tail"></div>
+            </div>
+            <div class="buttonCont">
+                <button id="flip" class="btn-grad " >Flip Coin</button>
+                <button id="Reset" class="btn-grad ">Reset</button>
+            </div>
+            <table class="counterTable" id="counterTable" hidden>
+                <th>
+                    <p class="counter">Heads</p>
+                </th>
+                <th>
+                    <p class="counter">Tails</p>
+                </th>
+                <tr>
+                    <td id="headCount">0</td>
+                    <td id="tailCount">0</td>
+                </tr>
+            </table>
+            <!-- <p id="headCount" class="counter">Heads: </p>
+            <p id="tailCount" class="counter">Tails: </p> -->
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
