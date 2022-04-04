@@ -27,7 +27,6 @@ body {
     position: relative;
     top: 20px;
     max-width: 80%;
-    height: 25%;
     text-align: justify;
     z-index: 99999;
 }
@@ -35,8 +34,6 @@ body {
 .textBox{
     width: 100%;
     height: 100%;
-    display: table-cell;
-    vertical-align: middle
 }
 
 .character{

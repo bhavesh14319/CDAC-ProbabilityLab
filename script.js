@@ -20,7 +20,7 @@ let displayText = ()=>{
     console.log(spliitedText);
     let i=0;
     let display = setInterval(function() {
-        textBox.innerText += `${spliitedText[i]}`;
+        textBox.textContent += `${spliitedText[i]} `;
         if (i == (spliitedText.length-1)) {
             clearInterval(display);
         }
