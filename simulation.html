@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <a target="_blank" href="https://icons8.com/icon/4G2DeaJvYebI/information">Information</a>
+     icon by
+      <a target="_blank" href="https://icons8.com">Icons8</a> -->
+    <title>Simulation</title>
+</head>
+<body>
+
+ <!-- NavBar -->
+ <header>
+    <nav>
+        <ul>
+        
+            <li id="li1">
+                <img src="images/Introduction.png" alt="" id="img1" class="imgIcon">
+                <a href="index.html"><h3>Introduction</h3></a>
+            </li>
+       
+            
+        
+            <li>
+                <img src="images/Theory.png" alt="" id="img2" class="imgIcon">
+                <a href="Theory.html"> <h3>Theory</h3></a>
+            </li>
+        
+        
+        
+            <li>
+                <img src="images/Procedure.png" alt="" id="img3" class="imgIcon">
+                <a href="Procedure.html"> <h3>Procedure</h3> </a>
+            </li>
+       
+        
+        
+            <li>
+                <img src="images/Simulation.png" alt="" id="img4" class="imgIcon">
+                <a href="simulation.html"><h3>Simulation</h3>  </a>
+            </li>
+      
+
+        
+            <li>
+                <img src="images/Quiz.png" alt="" id="img5" class="imgIcon">
+                <a href="Quiz.html"> <h3>Quiz</h3></a>
+            </li>
+        
+
+        
+            <li>
+                <img src="images/reference.png" alt="" id="img6" class="imgIcon">
+                <a href="reference.html">   <h3>Reference</h3></a>
+            </li>
+        
+
+            <li id="title">
+              <h1>Probability Lab</h1>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <aside>
+      <div class="sideContainer" id="sideContainer">
+          <ul id="sideUl">
+             <li id="stagesHeading" class="stageItem">
+                <h1>STAGES</h1>             
+              </li>
+             <li class="stageItem">
+                Stage 1
+             </li>
+             <li class="stageItem">
+                Stage 2
+             </li>
+             <li class="stageItem">
+              Stage 3
+            </li>
+            <li class="stageItem">
+            Stage 4
+            </li>
+          </ul>
+      </div>
+    </aside>
+
+    <!-- Main Container -->
+    <div class="MainContainer" id="MainContainer">
+        <!-- Upper instruction Box -->
+        <div class="instructionBox" id="instructionBox" >
+            <div class="textBox" id="textBox"></div>
+        </div>
+        <!-- Character -->
+        <div class="character" id="character">
+            <img src="images/Character.png" alt="" srcset="">
+        </div>
+        <!-- Coin Element -->
+        <div class="tossElement" id="tossElement">
+            <div class="coinContainer">
+                <div class="head"></div>
+                <div class="tail"></div>
+            </div>
+            <div class="buttonCont">
+                <button id="flip" class="btn-grad " >Flip Coin</button>
+                <button id="Reset" class="btn-grad ">Reset</button>
+            </div>
+            <table class="counterTable" id="counterTable">
+                <th>
+                    <p class="counter">Heads</p>
+                </th>
+                <th>
+                    <p class="counter">Tails</p>
+                </th>
+                <tr>
+                    <td id="headCount">0</td>
+                    <td id="tailCount">0</td>
+                </tr>
+            </table>
+            <!-- <p id="headCount" class="counter">Heads: </p>
+            <p id="tailCount" class="counter">Tails: </p> -->
+        </div>
+
+        
+    </div>
+    
+
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

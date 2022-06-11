@@ -8,7 +8,7 @@ const textBox = document.getElementById('textBox');
 let heads=0;
 let tails=0;
 
-let dummyText = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dicta dolorem natus fuga maiores, nesciunt iste magni aliquid. Dolore dolor delectus perferendis aperiam eaque modi amet enim officia at recusandae? Libero voluptate perspiciatis alias enim at. Sequi, totam! Aliquid nostrum ipsam vel aperiam molestiae officia doloremque sequi quibusdam explicabo, omnis aspernatur mollitia nisi quis, dignissimos dolorum officiis, culpa facere blanditiis optio. Sed culpa iste quos pariatur deserunt modi necessitatibus. Numquam, vitae beatae. Sed saepe recusandae accusantium repudiandae iure dolorum quos nemo facilis quam, reiciendis hic obcaecati odio iste quae excepturi laborum commodi sequi dolorem enim quidem maxime fugiat vero. Alias."]
+let dummyText = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dicta dolorem natus fuga maiores, nesciunt iste magni aliquid. Dolore dolor delectus perferendis aperiam eaque modi amet enim officia at recusandae? Libero voluptate perspiciatis alias enim at. Sequi, totam! Aliquid nostrum ipsam vel aperiam "]
 
 let split = (text) =>{
     let t = text.split(' ');
